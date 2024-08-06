@@ -1,0 +1,90 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2019/2022
+.vs/
+.vscode/
+.vscode-test/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.designer.cs
+*_i.c
+*_p.c
+*.idb
+*.ipch
+*.pch
+*.obj
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folders related to web technology
+node_modules/
+jspm_packages/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Npm package files
+package-lock.json
+
+# JetBrains Rider
+.idea/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Azure DevOps
+# Uncomment if needed or configure your build process to automatically create these files.
+# /azure-pipelines.yml
+
+# Windows environment files
+*.db
+
+# Rider
+.idea/
+
+# Others
+# Uncomment if using FSharp
+# *.fs
+# *.fsi
+# *.fsx
+# *.fsscript
