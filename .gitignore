@@ -1,0 +1,89 @@
+# Ignore build output and intermediate files
+bin/
+obj/
+out/
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# Rider and JetBrains specific files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Logs and reports
+*.log
+*.tlog
+*.trx
+*.coverage
+*.coveragexml
+*.crash
+TestResults/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# MacOS and Windows-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NuGet packages and artifacts
+*.nupkg
+*.snupkg
+packages/
+artifacts/
+
+# Dependency injection and lock files
+*.deps.json
+project.lock.json
+project.fragment.lock.json
+
+# Environment and configuration files
+.env
+.env.*
+appsettings.json
+appsettings.*.json
+
+# Azure DevOps
+*.publishsettings
+*.azurePubxml
+*.pubxml.user
+
+# Resharper and other IDE-specific files
+_ReSharper*/
+*.DotSettings.user
+
+# Coverage reports
+coverage/
+.coverage
+
+# Git Hooks
+.husky/
+
+# Node.js files (if any)
+node_modules/
+npm-debug.log*
+
+# Include the following if your project uses Docker
+docker-compose.override.yml
+docker-compose.*.yml
+.dockerignore
+
+# Include the following if your project uses Python (for scripts)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.egg-info/
+/WinFormsBlazorApp/.vs
